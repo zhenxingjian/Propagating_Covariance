@@ -23,5 +23,21 @@ statsmodels
 pip install statsmodels
 ```
 
+# Results
+
+
+
+
+# Citation
+```
+@InProceedings{zhen2021simpler,
+author = {Zhen, Xingjian and Chakraborty, Rudrasis and Singh, Vikas},
+title = {Simpler Certified Radius Maximization by Propagating Covariances},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2021}
+}
+```
+
 
 The code and more detail will be added shortly.
