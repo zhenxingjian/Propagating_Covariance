@@ -18,5 +18,10 @@ prefetch_generator
 pip install prefetch_generator
 ```
 
+statsmodels
+```bash
+pip install statsmodels
+```
+
 
 The code and more detail will be added shortly.
