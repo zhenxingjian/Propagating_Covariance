@@ -27,6 +27,8 @@ pip install statsmodels
 The results on MNIST, SVHN, Cifar-10, ImageNet, and Places365 with the certified robustness. The number reported in each column represents the ratio of the test set with the certified radius larger than the header of that column under the perturbation \sigma. ACR is the average certified radius of all the test samples. A larger value is better for all the numbers reported
 ![Alt text](Results/main_results.png?raw=true "Title")
 
+Ablation experiment on Places365 with \sigma=0.5. We perform the choice of \lambda and r_{max} as the hyper-parameters.
+![Alt text](Results/ablation.png?raw=true "Title")
 
 
 # Citation
