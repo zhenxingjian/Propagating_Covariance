@@ -30,6 +30,8 @@ The results on MNIST, SVHN, Cifar-10, ImageNet, and Places365 with the certified
 Ablation experiment on Places365 with \sigma=0.5. We perform the choice of \lambda and r_{max} as the hyper-parameters.
 ![Alt text](Results/ablation.png?raw=true "Title")
 
+A visualization of the first two channels within the neural network across different layers. The dots are the actual MC samples and the color represents the density at that point. The blue oval is generated from the covariance matrices we are tracking
+![Alt text](Results/tracking.png?raw=true "Title")
 
 # Citation
 ```
