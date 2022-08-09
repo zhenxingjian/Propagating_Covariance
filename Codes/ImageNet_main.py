@@ -75,10 +75,6 @@ def ImageNet_train(sigma, lbd, gamma, num_classes, model, trainloader, optimizer
     for _, (inputs, targets) in enumerate(trainloader):
         inputs, targets = inputs.to(device), targets.to(device)
         inputR, inputSPD = NoiseDistr(inputs)
-
-        if np.random.rand() > 0.5:
-            inputR = inputs # train the model to fine-tune
-        
         inputSPD = inputSPD.to(device)
 
         outputR, outputSPD = model(inputR, inputSPD)
