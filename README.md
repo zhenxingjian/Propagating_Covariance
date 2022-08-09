@@ -44,5 +44,3 @@ year = {2021}
 }
 ```
 
-
-The code and more detail will be added shortly.
